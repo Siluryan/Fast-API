@@ -1,0 +1,7 @@
+def toprint(outrafun):
+  outrafun()
+
+
+@toprint
+def main():
+  print('Printou')
