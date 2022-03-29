@@ -5,3 +5,5 @@ https://fastapi.tiangolo.com
 https://jtemporal.com/requirements-txt/
 
 https://pythonacademy.com.br/blog/domine-decorators-em-python
+
+https://www.w3schools.com/python/default.asp
