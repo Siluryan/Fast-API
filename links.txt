@@ -1,0 +1,7 @@
+https://www.youtube.com/watch?v=0sOvCWFmrtA
+
+https://fastapi.tiangolo.com
+
+https://jtemporal.com/requirements-txt/
+
+https://pythonacademy.com.br/blog/domine-decorators-em-python
