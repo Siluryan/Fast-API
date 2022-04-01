@@ -9,3 +9,5 @@ https://pythonacademy.com.br/blog/domine-decorators-em-python
 https://www.w3schools.com/python/default.asp
 
 https://oandersonbm.medium.com/usando-python-no-vs-code-com-ambiente-virtual-venv-ecef7959b652
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
