@@ -17,11 +17,6 @@ Preparando o ambiente de desenvolvimento:
   https://jtemporal.com/requirements-txt/
 
 
-Decorators:
- 
- https://pythonacademy.com.br/blog/domine-decorators-em-python
-
-
 HTTP Status Code:
 
   https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
@@ -34,3 +29,14 @@ Raising Exceptions:
   https://www.youtube.com/watch?v=m08xaNwaFLc
 
   https://www.youtube.com/watch?v=x_ZnVVIWH_s
+
+
+Enumerate:
+  
+  https://realpython.com/python-enumerate/
+
+
+Decorators:
+ 
+ https://pythonacademy.com.br/blog/domine-decorators-em-python 
+ 
