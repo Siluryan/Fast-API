@@ -27,7 +27,7 @@ HTTP Status Code:
   https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
 
 
-Raise Exceptions:
+Raising Exceptions:
 
   https://docs.python.org/3/tutorial/errors.html
 
