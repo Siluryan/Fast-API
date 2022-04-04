@@ -6,8 +6,7 @@ from random import randrange
 
 
 app = FastAPI()
-
-my_posts = []
+my_posts = list()
 
 
 class Post(BaseModel):
