@@ -22,6 +22,13 @@ HTTP Status Code:
   https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
 
 
+405 Method Not Allowed:
+  
+  https://www.hostinger.com/tutorials/error-405-method-not-allowed
+  
+  https://community.postman.com/t/405-method-not-allowed/16743  
+
+
 Raising Exceptions:
 
   https://docs.python.org/3/tutorial/errors.html
