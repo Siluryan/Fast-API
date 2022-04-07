@@ -13,6 +13,8 @@ Preparando o ambiente de desenvolvimento:
   https://oandersonbm.medium.com/usando-python-no-vs-code-com-ambiente-virtual-venv-ecef7959b652
 
   https://fastapi.tiangolo.com
+  
+  https://www.uvicorn.org/
 
   https://jtemporal.com/requirements-txt/
 
@@ -26,7 +28,14 @@ HTTP Status Code:
   
   https://www.hostinger.com/tutorials/error-405-method-not-allowed
   
-  https://community.postman.com/t/405-method-not-allowed/16743  
+  https://community.postman.com/t/405-method-not-allowed/16743
+  
+
+Requests:
+
+  https://www.w3schools.com/python/module_requests.asp
+  
+  https://www.geeksforgeeks.org/put-method-python-requests/
 
 
 Raising Exceptions:
