@@ -71,5 +71,5 @@ def update_post(id: int, post: Post):
        msg_404(id)
     post_dict = post.dict()    
     post_dict['id'] = id
-    my_post[index] = post_dict
+    my_posts[index] = post_dict
     return {"data":post_dict}
