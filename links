@@ -40,7 +40,9 @@ Requests:
   https://www.geeksforgeeks.org/put-method-python-requests/
   
   
-Sudo -iu
+PostgreSQL:
+
+  https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt
     
   https://superuser.com/questions/451584/what-does-sudo-iu-someusername-mean-what-does-it-mean-for-scp-ing-files-up
     
