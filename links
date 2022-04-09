@@ -19,6 +19,15 @@ Preparando o ambiente de desenvolvimento:
   https://jtemporal.com/requirements-txt/
   
   https://docs.python.org/pt-br/3/tutorial/venv.html
+  
+
+PostgreSQL:
+
+  https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt
+    
+  https://superuser.com/questions/451584/what-does-sudo-iu-someusername-mean-what-does-it-mean-for-scp-ing-files-up
+    
+  https://unix.stackexchange.com/questions/74347/difference-between-sudo-su-user-and-sudo-iu-user
 
 
 HTTP Status Code:
@@ -40,15 +49,6 @@ Requests:
   https://www.geeksforgeeks.org/put-method-python-requests/
   
   
-PostgreSQL:
-
-  https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart-pt
-    
-  https://superuser.com/questions/451584/what-does-sudo-iu-someusername-mean-what-does-it-mean-for-scp-ing-files-up
-    
-  https://unix.stackexchange.com/questions/74347/difference-between-sudo-su-user-and-sudo-iu-user
-
-
 Raising Exceptions:
 
   https://docs.python.org/3/tutorial/errors.html
@@ -58,12 +58,6 @@ Raising Exceptions:
   https://www.youtube.com/watch?v=x_ZnVVIWH_s
 
 
-Enumerate:
-  
-  https://realpython.com/python-enumerate/
-
-
 Decorators:
  
- https://pythonacademy.com.br/blog/domine-decorators-em-python 
- 
+ https://pythonacademy.com.br/blog/domine-decorators-em-python
