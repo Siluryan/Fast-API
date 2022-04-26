@@ -41,6 +41,13 @@ PostgreSQL:
   
   https://bytes.com/topic/postgresql/answers/973206-how-remove-read-only-column-sign-postgresql
   
+ 
+Psycopg2 (PostgreSQL database adapter for the Python programming language)
+
+  https://pypi.org/project/psycopg2/
+
+  https://www.psycopg.org/docs/install.htm
+  
 
 Regular Expressions:
 
