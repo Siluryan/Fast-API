@@ -1,14 +1,14 @@
-Tutorial Completo:
+Python API Development:
 
   https://www.youtube.com/watch?v=0sOvCWFmrtA
 
 
-Referência para dúvidas em Python:
+Reference site for Python questions:
 
   https://www.w3schools.com/python/default.asp
 
 
-Preparando o ambiente de desenvolvimento:
+Setting Up a Development Environment:
 
   https://oandersonbm.medium.com/usando-python-no-vs-code-com-ambiente-virtual-venv-ecef7959b652
 
@@ -40,6 +40,11 @@ PostgreSQL:
   https://unix.stackexchange.com/questions/74347/difference-between-sudo-su-user-and-sudo-iu-user
   
   https://bytes.com/topic/postgresql/answers/973206-how-remove-read-only-column-sign-postgresql
+  
+
+Regular Expressions:
+
+  https://study.com/academy/lesson/regular-expressions-in-sql-server-databases-implementation-use.html
 
 
 HTTP Status Code:
