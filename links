@@ -41,12 +41,22 @@ PostgreSQL:
   
   https://bytes.com/topic/postgresql/answers/973206-how-remove-read-only-column-sign-postgresql
   
+  https://devtools.com.br/blog/alterando-a-senha-do-usuario-postgres/
+  
  
 Psycopg2 (PostgreSQL database adapter for the Python programming language)
 
   https://pypi.org/project/psycopg2/
 
   https://www.psycopg.org/docs/install.htm
+  
+  https://www.psycopg.org/docs/cursor.html
+  
+  https://www.postgresql.org/docs/9.2/plpgsql-cursors.html
+  
+  https://stackoverflow.com/questions/45399347/psycopg2-dictcursor-vs-realdictcursor#54228841
+   
+  https://www.youtube.com/watch?v=2PDkXviEMD0&ab_channel=HusseinNasser   
   
 
 Regular Expressions:
