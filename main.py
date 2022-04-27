@@ -27,17 +27,19 @@ while True:
         print('Connection to database failed')
         print('Error: ', error)
         time.sleep(3)
-
+        
 
 def find_post(id):
     for p in my_posts:
         if p['id'] == id:
            return p
 
+    
 def find_index(id):
     for i, p in enumerate(my_posts):
         if p['id'] == id:
             return i
+        
 
 def msg_404(id):
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'Id:{id} does not exist')
