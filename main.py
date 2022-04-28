@@ -19,7 +19,7 @@ class Post(BaseModel):
 
 while True:
     try:
-        cnnt = psycopg2.connect(host='localhost', database='fastapi', user='postgres', password='', cursor_factory=RealDictCursor)
+        cnnt = psycopg2.connect(host='localhost', database='fastapi', user='postgres', password='******', cursor_factory=RealDictCursor)
         cursor = cnnt.cursor()
         print('Database connection was succesfull')
         break
@@ -27,26 +27,14 @@ while True:
         print('Connection to database failed')
         print('Error: ', error)
         time.sleep(3)
-        
 
-def find_post(id):
-    for p in my_posts:
-        if p['id'] == id:
-           return p
 
-    
-def find_index(id):
-    for i, p in enumerate(my_posts):
-        if p['id'] == id:
-            return i
-        
-
-def msg_404(id):
+def msg_404(id):    
     raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'Id:{id} does not exist')
     
 
 @app.get('/')
-def root():
+def root():    
     return {'Index': 'Main'}
     
 
@@ -54,40 +42,48 @@ def root():
 def app_get():
     cursor.execute('''SELECT * FROM posts ''')
     posts = cursor.fetchall()
+    
     return {'Data': posts}
 
 
 @app.post('/posts', status_code=status.HTTP_201_CREATED)
 def create_post(post: Post):
-    post_dict = post.dict()
-    post_dict['id'] = randrange(0, 1000000) 
-    my_posts.append(post_dict)
-    return {'Data':post_dict}
+    cursor.execute('''INSERT INTO posts (title, content, published) VALUES (%s, %s, %s) RETURNING *''',
+                   (post.title, post.content, post.published))
+    new_post = cursor.fetchone()
+    cnnt.commit()
+    
+    return {'Data':new_post}
 
 
 @app.get('/posts/{id}')
 def get_post(id: int, response: Response):
-    post = find_post(id)
+    cursor.execute('''SELECT * FROM posts WHERE id = %s''', (str(id),))
+    post = cursor.fetchone()
     if not post:
          msg_404(id)
+    
     return {'Post detail':post}
 
 
 @app.delete('/posts/{id}', status_code=status.HTTP_204_NO_CONTENT)
 def delete_post(id: int):
-    index = find_index(id)
-    if index == None:
+    cursor.execute('''DELETE FROM posts WHERE id = %s RETURNING*''', (str(id),))
+    delete_post = cursor.fetchone()
+    cnnt.commit()
+    if delete_post == None:
        msg_404(id)
-    my_posts.pop(index)
+    
     return Response (status_code=status.HTTP_204_NO_CONTENT)
 
 
 @app.put('/posts/{id}')
 def update_post(id: int, post: Post):
-    index = find_index(id)
-    if index == None:
+    cursor.execute('''UPDATE posts SET title = %s, content = %s, published = %s WHERE id = %s RETURNING *''',
+                   (post.title, post.content, post.published, str(id)))
+    updated_post = cursor.fetchone()
+    cnnt.commit()
+    if updated_post == None:
        msg_404(id)
-    post_dict = post.dict()    
-    post_dict['id'] = id
-    my_posts[index] = post_dict
-    return {"data":post_dict}
+    
+    return {"data":updated_post}
