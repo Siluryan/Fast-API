@@ -44,7 +44,7 @@ PostgreSQL:
   https://devtools.com.br/blog/alterando-a-senha-do-usuario-postgres/
   
  
-Psycopg2 (PostgreSQL database adapter for the Python programming language)
+Psycopg2 (PostgreSQL database adapter for the Python programming language):
 
   https://pypi.org/project/psycopg2/
 
@@ -52,11 +52,19 @@ Psycopg2 (PostgreSQL database adapter for the Python programming language)
   
   https://www.psycopg.org/docs/cursor.html
   
-  https://www.postgresql.org/docs/9.2/plpgsql-cursors.html
+  https://www.psycopg.org/docs/sql.html
+
+  https://www.psycopg.org/docs/usage.html
+  
+  https://www.postgresql.org/docs/9.2/plpgsql-cursors.html  
+   
+  https://www.youtube.com/watch?v=2PDkXviEMD0&ab_channel=HusseinNasser
   
   https://stackoverflow.com/questions/45399347/psycopg2-dictcursor-vs-realdictcursor#54228841
    
-  https://www.youtube.com/watch?v=2PDkXviEMD0&ab_channel=HusseinNasser   
+  https://pt.stackoverflow.com/questions/430535/typeerror-no-insert-via-python-no-postgresql
+  
+  https://stackoverflow.com/questions/28120124/psycopg2-variables-format-for-creating-queries 
   
 
 Regular Expressions:
@@ -67,9 +75,6 @@ Regular Expressions:
 HTTP Status Code:
 
   https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
-
-
-405 Method Not Allowed:
   
   https://www.hostinger.com/tutorials/error-405-method-not-allowed
   
