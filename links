@@ -11,6 +11,8 @@ Reference site for Python questions:
 Setting Up a Development Environment:
 
   https://oandersonbm.medium.com/usando-python-no-vs-code-com-ambiente-virtual-venv-ecef7959b652
+  
+  https://techinscribed.com/python-virtual-environment-in-vscode/
 
   https://fastapi.tiangolo.com
   
@@ -21,6 +23,8 @@ Setting Up a Development Environment:
   https://jtemporal.com/requirements-txt/
   
   https://docs.python.org/pt-br/3/tutorial/venv.html
+  
+  https://stackoverflow.com/questions/60819376/fastapi-throws-an-error-error-loading-asgi-app-could-not-import-module-api 
   
 
 PostgreSQL:
@@ -64,7 +68,16 @@ Psycopg2 (PostgreSQL database adapter for the Python programming language):
    
   https://pt.stackoverflow.com/questions/430535/typeerror-no-insert-via-python-no-postgresql
   
-  https://stackoverflow.com/questions/28120124/psycopg2-variables-format-for-creating-queries 
+  https://stackoverflow.com/questions/28120124/psycopg2-variables-format-for-creating-queries
+  
+
+SQLAlchemy:
+
+  https://www.sqlalchemy.org/
+  
+  https://fastapi.tiangolo.com/tutorial/sql-databases/
+  
+  https://fastapi.tiangolo.com/tutorial/dependencies/
   
 
 Regular Expressions:
