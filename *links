@@ -79,6 +79,10 @@ SQLAlchemy:
   
   https://fastapi.tiangolo.com/tutorial/dependencies/
   
+  https://docs.sqlalchemy.org/en/14/orm/quickstart.html
+  
+  https://docs.sqlalchemy.org/en/14/orm/session_basics.html
+  
 
 Regular Expressions:
 
@@ -111,5 +115,12 @@ Raising Exceptions:
 
 
 Decorators:
+
+  https://pythonacademy.com.br/blog/domine-decorators-em-python
  
- https://pythonacademy.com.br/blog/domine-decorators-em-python
+ 
+Python repr():
+
+  https://www.programiz.com/python-programming/methods/built-in/repr
+
+  https://www.pythontutorial.net/python-oop/python-__repr__/
