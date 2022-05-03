@@ -83,6 +83,12 @@ SQLAlchemy:
   
   https://docs.sqlalchemy.org/en/14/orm/session_basics.html
   
+Pydantic:
+
+  https://pydantic-docs.helpmanual.io/
+  
+  https://www.youtube.com/watch?v=Vj-iU-8_xLs&ab_channel=ArjanCodes
+  
 
 Regular Expressions:
 
