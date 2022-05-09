@@ -83,6 +83,9 @@ SQLAlchemy:
   
   https://docs.sqlalchemy.org/en/14/orm/session_basics.html
   
+  https://www.fullstackpython.com/sqlalchemy-model-examples.html
+  
+
 Pydantic:
 
   https://pydantic-docs.helpmanual.io/
