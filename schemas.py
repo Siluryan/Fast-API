@@ -16,7 +16,6 @@ class PostResponse(PostBase):
     id: int
     created_at: datetime
 
-
 #allows communications between sqlalchemy and pydantic
     class Config():
         orm_mode = True
